@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+  }
+  
+  button {
+    margin: 4px;
+  }
+  
+  #snippets-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #snippets-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+  
+  small {
+    color: green;
+  }
+  
